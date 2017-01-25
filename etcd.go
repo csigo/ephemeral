@@ -26,7 +26,7 @@ import (
 	log "github.com/Sirupsen/logrus"
 	etcdErr "github.com/coreos/etcd/error"
 	"github.com/coreos/go-etcd/etcd"
-	etcdlock "github.com/etcd-lock"
+	etcdlock "github.com/datawisesystems/etcd-lock"
 	"github.com/facebookgo/stats"
 	"golang.org/x/net/context"
 )
